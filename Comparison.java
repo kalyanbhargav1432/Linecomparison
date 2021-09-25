@@ -1,7 +1,14 @@
 package Linecomparison;
 
 public class Comparison {
-	public static void main(String[] args) {
-		System.out.println("welcome to linecomparison computation");
-}
+	double length(int x1,int y1,int x2,int y2) {
+		double distance;
+		distance = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+		return distance;
+	}
+		public static void main(String[] args) {
+	Comparison line = new 	Comparison();
+		double result = line.length(2, 5, 6, 7);
+		System.out.println("the length:"+ result);
+	}
 }
