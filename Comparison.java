@@ -7,8 +7,8 @@ public class Comparison {
 		return distance;
 	}
 		public static void main(String[] args) {
-	Comparison line = new 	Comparison();
-		double result = line.length(2, 5, 6, 7);
-		System.out.println("the length:"+ result);
+			Comparison line = new 	Comparison();
+			double length = line.length(2, 5, 6, 7);
+			System.out.println("the length:"+ length);
 	}
 }
